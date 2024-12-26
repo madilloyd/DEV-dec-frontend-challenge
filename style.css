@@ -1,4 +1,101 @@
+/*Elements*/
 body {
-    display: block;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2B3240;
+}
+h1, h2, h3, a {
     font-family:"Tomorrow", serif;
+}
+p, li {
+    font-family: "Roboto", serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    z-index: 10;
+    background-image: url(images/blur-snow.jpg);
+    background-size: cover;
+    background-color: #2B3240;
+}
+nav {
+    justify-content: space-around;
+}
+section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 1rem auto;
+    max-width: 1000px;
+    background: #8596A6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+ 
+  div .image {
+    flex: 0 0 auto; 
+    margin-left: 20px; 
+    align-self: center;
+    overflow: hidden;
+  }
+ 
+  .image img{
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px!important;
+    padding: 10px;
+  }
+
+/*Header Section*/
+#main-header h1 {
+    color: azure;
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 20px;
+}
+#main-nav a {
+    color:azure;
+    display:inline-block;
+    padding: 1em;
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+#main-nav li {
+    list-style: none;
+    float: left;
+}
+#main-nav a:hover{
+    color: #F2DE77;
+}
+
+/*Introduction Section*/
+#introduction {
+    padding: 0 1rem;
+}
+#introduction  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+#introduction  p {
+    font-size: 1rem;
+}
+
+/*Science Section*/
+#science {
+    padding: 0 1rem;
+}
+#science h2 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+#science  p {
+    font-size: 1rem;
+    text-align: left;
+}
+#science div .image img{
+
 }
