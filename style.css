@@ -28,25 +28,21 @@ nav {
 section {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
     margin: 1rem auto;
     max-width: 1000px;
     background: #8596A6;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
- 
-  div .image {
-    flex: 0 0 auto; 
-    margin-left: 20px; 
-    align-self: center;
-    overflow: hidden;
-  }
- 
+ article {
+    margin-bottom: 2rem;
+ }
+
   .image img{
     max-width: 400px;
     height: auto;
-    border-radius: 8px!important;
+    border-radius: 8px;
     padding: 10px;
   }
 
@@ -63,6 +59,7 @@ section {
     padding: 1em;
     text-decoration:none;
     font-size: 1.5rem;
+    transition: color 0.5s ease;
 }
 #main-nav li {
     list-style: none;
@@ -97,5 +94,55 @@ section {
     text-align: left;
 }
 #science div .image img{
+    
+}
 
+/*Hemisphere Section*/
+section #hemispheres {
+    padding: 0 1rem;
+    display: flex;
+}
+#hemispheres  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+#hemispheres   p {
+    font-size: 1rem;
+    text-align: left;
+}
+div #hemisphere-summary {
+    align-self: flex-start;
+}
+#hemispheres article {
+    align-self: flex-end;
+}
+    
+
+/*Footer Section*/
+footer {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%; /
+  
+}
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    
+}
+footer nav li {
+    display: inline;
+    margin: 0 10px;
+}
+footer nav a {
+    color: azure;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+footer nav a:hover {
+    color: #F2DE77;
 }
