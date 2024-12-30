@@ -4,12 +4,31 @@ body {
     margin: 0;
     padding: 0;
     background-color: #2B3240;
+    overflow-x: hidder;
+    position: relative;
 }
 h1, h2, h3, a {
-    font-family:"Tomorrow", serif;
+    font-family:"Tomorrow", sans-serif;
+}
+h1 {
+    color: azure;
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    text-align: center;
 }
 p, li {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
+}
+p {
+    font-size: 1rem;
+}
+li {
+    list-style: none;
 }
 header {
     display: flex;
@@ -26,43 +45,46 @@ nav {
     justify-content: space-around;
 }
 section {
-    display: flex;
-    align-items: center;
-    padding: 2rem;
+    display: block;
+    padding: 0.75rem;
     margin: 1rem auto;
     max-width: 1000px;
+    height:auto;
     background: #8596A6;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
+  div {
+    display: block;
+    unicode-bidi: isolate;
+  }
  article {
     margin-bottom: 2rem;
  }
-
-  .image img{
-    max-width: 400px;
+img{
+    max-width: 600px;
     height: auto;
-    border-radius: 8px;
     padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  .container {
+    width: 80%;
+    margin-inline: auto;
   }
 
 /*Header Section*/
-#main-header h1 {
-    color: azure;
-    font-size: 3em;
-    font-weight: 700;
-    padding-top: 20px;
-}
 #main-nav a {
     color:azure;
     display:inline-block;
     padding: 1em;
     text-decoration:none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: color 0.5s ease;
 }
 #main-nav li {
-    list-style: none;
     float: left;
 }
 #main-nav a:hover{
@@ -71,52 +93,80 @@ section {
 
 /*Introduction Section*/
 #introduction {
-    padding: 0 1rem;
-}
-#introduction  h2 {
-    font-size: 1.8rem;
-    text-align: center;
-}
-#introduction  p {
-    font-size: 1rem;
+    padding: 0 .5rem;
+    position: relative;
 }
 
 /*Science Section*/
 #science {
-    padding: 0 1rem;
+    padding: 0 .5trem;
+    position: relative;
 }
-#science h2 {
-    font-size: 1.8rem;
-    text-align: center;
-}
-#science  p {
-    font-size: 1rem;
+#science p {
     text-align: left;
-}
-#science div .image img{
-    
 }
 
 /*Hemisphere Section*/
-section #hemispheres {
+
+/*#hemispheres {
+    padding: 0 .5rem;
+    position: relative;
+    height: auto;
+}
+#hemispheres h3 p {
+    text-align: left;
+    display: inline-block;
+}
+.hemisphere-items {
+    position: relative;
+    display: inline-block;
+ }
+ .text-box {
+    position: absolute;
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+ }
+ .text-box:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+ }*/
+ .hemisphere-image img{
+   display: block;
+   max-width: 200px;
+   float: right;
+   height: auto;
+ }
+
+
+
+/*Celebration Section*/
+section #celebrations {
     padding: 0 1rem;
+    position: relative;
     display: flex;
+    align-items: normal;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-#hemispheres  h2 {
-    font-size: 1.8rem;
-    text-align: center;
-}
-#hemispheres   p {
-    font-size: 1rem;
+#celebration p {
     text-align: left;
 }
-div #hemisphere-summary {
-    align-self: flex-start;
+#celebrations .title {
+    align-content:flex-start;
+    flex-direction: column;
 }
-#hemispheres article {
-    align-self: flex-end;
+#celebration-articles {
+    flex-direction: row;
+    align-content: flex-end;
+    flex: 1;
 }
-    
+.celebreation .image {
+    position: relative;
+    max-width: 200px;
+}
 
 /*Footer Section*/
 footer {
@@ -124,9 +174,8 @@ footer {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    width: 100%; /
-  
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; 
 }
 footer nav ul {
     list-style: none;

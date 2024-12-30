@@ -26,4 +26,11 @@ _This is a submission for [Frontend Challenge - December Edition, Glam Up My Mar
 Photo by <a href="https://unsplash.com/@johnprice?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">John Price</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-trees-filled-of-snow-UdgvzNom0Xs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
 Photo by <a href="https://unsplash.com/@aditya1702?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aditya Vyas</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-snow-falling-PzhmEp_aDU4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      
+    
+https://content.twinkl.co.uk/website/uploaded/07f18642-de62-11ec-870b-0257d57b707f-1666092486.jpg
+
+https://www.amazingperu.com/images/tours/gallery/winter_solistice_inti_raymi_festival_tour1.jpg
+
+https://thebusypagan.com/wp-content/uploads/2023/11/Yule-history-feature.png
+
+https://malevus.com/wp-content/uploads/2023/11/Koliada-festival.jpg
